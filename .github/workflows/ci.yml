@@ -1,3 +1,4 @@
+ 
 name: Django CI/CD
 
 on:
@@ -34,8 +35,5 @@ jobs:
     - name: Run tests
       run: |
         python manage.py test
-
-    # - name: Deploy to VM (optional)
-    #   run: |
 
 
