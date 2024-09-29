@@ -1,5 +1,0 @@
-[Service]
-User=admin  
-Group=www-data
-WorkingDirectory=/home/admin/backend  # Path project lo
-ExecStart=/home/admin/backend/venv/bin/gunicorn --workers 3 --bind unix:/home/admin/backend/phdmama_project.sock phdmama_backend.wsgi:application
