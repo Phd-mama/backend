@@ -1,0 +1,45 @@
+[
+    {
+      "model": "main.expertprofile",
+      "pk": 1,
+      "fields": {
+        "name": "Dr. Siti Aisyah",
+        "short_bio": "Researcher in climate change",
+        "expertise": "Environmental Science",
+        "contact_info": "siti.aisyah@univ-indonesia.ac.id",
+        "institution": "Universitas Indonesia",
+        "position": "Senior Lecturer",
+        "education_background": "PhD in Environmental Science",
+        "location": "Jakarta",
+        "selected_projects": "Project A, Project B",
+        "selected_publications": "Publication A, Publication B",
+        "google_scholar_link": "https://scholar.google.com/siti_aisyah",
+        "orcid_link": "https://orcid.org/0000-0000-0000-0001",
+        "personal_website": "https://siti_aisyah.com",
+        "news": "Featured in Environmental Research News",
+        "awards": "Environmental Science Award 2022"
+      }
+    },
+    {
+      "model": "main.expertprofile",
+      "pk": 2,
+      "fields": {
+        "name": "Prof. Bambang Santoso",
+        "short_bio": "Expert in Artificial Intelligence",
+        "expertise": "AI and Machine Learning",
+        "contact_info": "bambang.santoso@itb.ac.id",
+        "institution": "Institut Teknologi Bandung",
+        "position": "Professor",
+        "education_background": "PhD in Computer Science",
+        "location": "Bandung",
+        "selected_projects": "AI for Healthcare, ML in Manufacturing",
+        "selected_publications": "AI Journal, Neural Networks",
+        "google_scholar_link": "https://scholar.google.com/bambang_santoso",
+        "orcid_link": "https://orcid.org/0000-0000-0000-0002",
+        "personal_website": "https://bambang_santoso.com",
+        "news": "Keynote speaker at AI Conference",
+        "awards": "AI Innovator Award"
+      }
+    }
+  ]
+  
