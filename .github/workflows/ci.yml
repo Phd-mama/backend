@@ -43,7 +43,8 @@ jobs:
           ssh admin@${{ secrets.VM_HOST }} << 'VM_EOF'
           cd backend
           git pull
-          python manage.py migrate
+          python3 manage.py migrate
+          python3 manage.py collectstatic --noinput  
           sudo systemctl restart gunicorn
           VM_EOF
           EOF
