@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import ExpertProfile
 
-# Register your models here.
+# Register ExpertProfile untuk tampil di Django Admin
+admin.site.register(ExpertProfile)
