@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class ExpertProfile(models.Model):
+    id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100)
     short_bio = models.TextField()
     expertise = models.CharField(max_length=200)
