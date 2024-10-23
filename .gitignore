@@ -32,3 +32,5 @@ static/
 
 # Ignore macOS specific files
 .DS_Store
+
+db.sqlite3
